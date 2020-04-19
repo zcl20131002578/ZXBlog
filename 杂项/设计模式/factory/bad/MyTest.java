@@ -10,6 +10,7 @@ import factory.laterchange.abstractFactory.bad.product.MainBoard;
 
 public class MyTest {
     public static void main(String[] args){
+
         // 得到 Intel 的 CPU
         CPUFactory intelCPUFactory = new IntelCPUFactory();
         CPU cpu = intelCPUFactory.makeCPU();
